@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YouTube APIs example</title>
+    <script src="https://apis.google.com/js/client.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js" defer></script>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>YouTube video search</h1>
+    <div class="wrapper">
+      <div class="controls">
+        <form>
+          <p>
+            <label for="search">Enter a search term (required): </label>
+            <input type="text" id="search" class="search" value="Птушкин" required>
+          </p>
+          <p>
+            <button class="submit">Submit search</button>
+          </p>
+        </form>
+      </div>
+
+      <div class="results">
+        <nav>
+          <button class="prev">Previous 10</button>
+          <button class="next">Next 10</button>
+        </nav>
+
+        <section></section>
+      </div>
+    </div>
+  </body>
+</html>
